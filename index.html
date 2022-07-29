@@ -1,0 +1,30 @@
+<html lang="en" data-theme="dark"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <title>IP Info</title>
+
+</head>
+<body>
+  
+<main class="container">
+  
+  <form id="form">
+      <label for="">
+          IP A SOLICITAR
+          
+       <input required="" id="input" type="text" placeholder="Introduce tu ip">
+      <small> Por ejemplo: 54.85.132.205</small>
+      </label>
+      <button type="submit" id="submit"> Empezar busqueda</button>
+      
+  </form>
+  <div>
+      <pre id="ipResult"></pre>
+  </div>  
+</main> 
+
+<script src="ipJson.js"></script>
+
+</body></html>
